@@ -1,0 +1,32 @@
+role
+	'student'
+	'teacher'
+	'grade_head'
+	'add_user'
+	'add_grade'
+	'add_journal'
+	'add_plan'
+	'director'
+	'admin'
+	'submitor'
+END
+
+file
+	1
+END
+
+user_upload
+	'data';'Файл .data','.data'
+END
+
+plan_upload
+	'csv';'Файл .csv','.csv'
+END
+
+journal_upload
+	'data';'Файл .data','.data'
+END
+
+journal_download
+	'data';'Файл .data','.data'
+END
