@@ -68,7 +68,7 @@ test::Compiler::prepareCommandForCPP(
     compileCommand.emplace_back(aFileName);
     compileCommand.emplace_back(outputName);
 #else
-    compileCommand.emplace_back("g++");
+    compileCommand.emplace_back("g++ -std=c++2a");
     compileCommand.emplace_back(aFileName);
     compileCommand.emplace_back("-o");
     compileCommand.emplace_back(outputName);

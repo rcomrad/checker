@@ -151,6 +151,8 @@ core::Core::testerThread() noexcept
         if (sub.size())
         {
             std::cout << "checking " << sub[0].source_name << "\n";
+sub[0].verdict="NU";
+ connection.val.update(sub);
             test::Tester tester(1);
             tester.run(std::move(sub), connection);
         }
